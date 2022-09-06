@@ -1,0 +1,184 @@
+/* Header */
+
+hr {
+  border: 2px solid black;
+  background-color: black;
+}
+
+.bun-logo {
+  width: 400px;
+  height: auto;
+}
+
+.header-buttons {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 0px auto 0px auto;
+}
+
+.page-header {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 70px auto 40px auto;
+}
+
+.head {
+  border: 0px;
+  background-color: white;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 10px auto 0px auto;
+  display: inline-block;
+  font-size: 30px;
+}
+
+.head:hover {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+/* Product Gallery Page */
+
+.prod-descrip {
+  width: 265px;
+  margin: 0px auto 0px auto;
+} 
+
+.prod-descrip:hover {
+  background-color: yellow;
+}
+
+.descrip-img {
+  width: 250px;
+  height: auto;
+  margin: 5px auto 0px auto;
+  border: 5px solid black;
+}
+
+.item-name {
+  margin-top: 7px;
+  margin-bottom: 0px;
+  font-size: 22px;
+}
+
+.item-price{
+  margin-top: 0px;
+  font-size: 22px;
+  margin-bottom: 60px;
+}
+
+/* Product Detail Page */
+
+.prod-detail {
+  width: 500px;
+  height: 800px;
+  margin: 0px auto 0px auto;
+} 
+
+.detail-img {
+  width: 500px;
+  height: auto;
+  border: 5px solid black;
+}
+
+.detail-descrip {
+  font-size: 22px;
+  width: 250px;
+  margin: 8px auto 60px auto;
+}
+
+.detail-dropdown {
+  font-size: 22px;
+  width: 250px;
+  margin: 0px auto 25px auto;
+}
+
+label {
+  display: block;
+}
+
+select {
+  width: 250px;
+  font-size: 18px;
+  border: 3px solid black;
+}
+
+.payment {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  width: 250px;
+  margin: 80px auto 60px auto;
+}
+
+.lower-button {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 20px 5px 20px;
+  border: 3px solid black;
+}
+
+.lower-button:hover {
+  background-color: yellow;
+}
+
+#cart-button {
+  margin-left: 20px;
+}
+
+/* Shopping Cart Page */
+
+.cart-descrip {
+  width: 250px;
+  height: 330px;
+  margin: 0px auto 0px auto;
+  font-size: 25px;
+  text-align: center;
+} 
+
+.cart-img {
+  width: 100px;
+  height: auto;
+  border: 4px solid black;
+}
+
+.caption {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.cart-price {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.cart-checkout {
+  text-align: center;
+  font-size: 30px;
+  width: 250px;
+  margin: 30px auto 60px auto;
+}
+
+#total-price {
+  margin-bottom: 15px;
+}
+
+#cart-footer {
+  width: 60%;
+}
+
+/* Link formatting */
+
+a:link { 
+  text-decoration: none; 
+}
+
+a:visited { 
+  color: black;
+}
+
+a:active { 
+  text-decoration: none; 
+}

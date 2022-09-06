@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product Detail</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <a href="./product_gallery.html">
+      <img class="bun-logo" src="logo/logo-01.svg" alt="logo">
+    </a>
+    <hr>
+    <!--Buttons at the top of the page-->
+    <div class="header-buttons">
+      <a href="./product_gallery.html">
+        <div class="head">PRODUCTS</div>
+      </a>
+    </div>
+    <div class="header-buttons">
+      <a href="./cart.html">
+        <div class="head">CART</div>
+      </a>
+    </div>
+    <div class="page-header">Original Cinnamon Roll</div>
+    <!--Product Detail including the dropdowns to adjust for the purchase-->
+    <div class="prod-detail">
+      <img class="detail-img" src="products/original-cinnamon-roll.jpg" alt="original">
+      <p class="detail-descrip">Customize our delicious, hand-made cinnamon roll to your liking!</p>
+      <div class="detail-dropdown">
+        <label for="glazing-select">Glazing:</label>
+        <select name="glazing" id="glazing-select">
+            <option value="original">Keep original</option>
+            <option value="sugar">Sugar milk</option>
+            <option value="vanilla">Vanilla milk</option>
+            <option value="chocolate">Double chocolate</option>
+        </select>
+      </div>
+      <div class="detail-dropdown">
+        <label for="size-select">Pack Size:</label>
+      <select name="size" id="size-select">
+          <option value="1">1</option>
+          <option value="3">3</option>
+          <option value="6">6</option>
+          <option value="12">12</option>
+      </select>
+      </div>
+      <!--Price and Add to Cart options at the bottom-->
+      <div class="payment">
+        $2.49
+        <button class="lower-button" id="cart-button">Add to Cart</button>
+      </div>
+    </div>
+  </body>
+</html>
